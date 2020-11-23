@@ -20,7 +20,7 @@ body{
 }
 
 #logo-img{
-	background: url('module3-solution/img/food1.jpeg') no-repeat ;
+	background: url('https://image.freepik.com/free-vector/fast-food-neon-icons_36298-551.jpg') no-repeat ;
 	width: 100px;
 	height: 100px;
 	margin: 10px 15px 10px 0;
@@ -99,7 +99,7 @@ color: #004d40;
 }
 @media (min-width: 992px) and (max-width:1199px){
 	#logo-img{
-	background: url(' module3-solution/img/food1.jpeg') no-repeat ;
+	background: url('https://image.freepik.com/free-vector/fast-food-neon-icons_36298-551.jpg') no-repeat ;
 	width: 80px;
 	height: 80px;
 	margin: 5px 5px 5px 0;
