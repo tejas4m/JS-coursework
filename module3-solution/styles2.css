@@ -1,0 +1,194 @@
+body{
+	font-size: 16px;
+    color: #fff;
+    background-color: #212931;
+    font-family: 'Oxygen', 'sans-serif';
+}
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+        max-width:100%; 
+    }
+#header-nav{
+	background-color: #fff ;
+	border-radius: 0;
+	border: 0; 
+	
+}
+
+#logo-img{
+	background: url('C:/Users/Vaishali/Downloads/food1.jpeg') no-repeat ;
+	width: 100px;
+	height: 100px;
+	margin: 10px 15px 10px 0;
+    background-size: 100px 100px;
+
+}
+.navbar-brand{ 
+	padding-top: 25px;
+ }
+
+.navbar-brand h1{
+	font-family: 'Montserrat', sans-serif;
+    color: black;
+	font-size: 200%;
+	
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: red;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
+.navbar-toggler{
+	
+	   padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#navbarSupportedContent1{
+	text-align: right;
+}
+#navlist{
+	color: black;
+	
+}
+#navbarNav{
+	text-align: center;
+}
+#phone a{
+	color: black;
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	text-align: right;
+	padding-right: 15px;
+		color: black;
+
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+@media (min-width: 992px) and (max-width:1199px){
+	#logo-img{
+	background: url(' C:/Users/Vaishali/Downloads/food1.jpeg') no-repeat ;
+	width: 80px;
+	height: 80px;
+	margin: 5px 5px 5px 0;
+    background-size: 80px 80px;
+   }
+}
+@media(max-width: 767px){
+	.navbar-brand{ 
+	padding-top: 10px;
+	height: 80px;
+ }
+ .navbar-brand h1{  
+    padding-top: 10px;
+    font-size: 5vw;
+ }
+ .navbar-brand p {
+ 	font-size: .6em;
+ 	
+ 	padding-left: 0px;
+    margin-top: 5px;
+  }
+}
+#collapsable-nav a span{
+	font-size: 1.2em;
+}
+#collapsable-nav a span{
+	font-size: 1em;
+}
+#main-content{
+	height: 2000px;
+	background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+
+
+}
+.row {
+  width: 98%;
+
+  ;
+}
+#chicken-tile, #beef-tile ,#sushi-tile{
+	height: 250px;
+	width: 98%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #eeeeee;
+	overflow: hidden;
+    text-align: center;
+    
+    padding-top: 10px;
+
+}
+#home-tiles{
+	width: 98%;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+.col-xl-12{
+	padding-top: 15px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+#sub-title{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.5em;
+	font-family: cursive;
+	color: black;
+
+}
+#chicken-tile p, #beef-tile p ,#sushi-tile p{
+
+
+	color: #ffd369;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+
+}
+ .navbar-brand p span{
+text-align: left;
+    padding-left: 0px;
+    margin-top: 5px;
+}
+#chicken-tile span, #beef-tile span,#sushi-tile span{
+	
+    color: #393e46;
+    text-transform: uppercase;
+    font-weight: bold;
+
